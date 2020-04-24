@@ -1,26 +1,26 @@
-// function isPrime(num){
-//     for(i===2;i<num;i++){
-//         if(num % i === 0){
-//             console.log("not a prime number");
-//         }
-//         else {
-//             console.log("this is a prime number");
-//         }
-//     }
-// }
-// console.log(isPrime(9));
 function isPrime(num){
-    if(num < 2){
-        return false;
-    }
-  for(let i = 2; i<num; i++){
+    for(i===2;i<num;i++){
         if(num % i === 0){
-            return false;
+            console.log("not a prime number");
         }
-  }
-    return true;
+        else {
+            console.log("this is a prime number");
+        }
+    }
 }
-console.log(isPrime(30));
+console.log(isPrime(9));
+// function isPrime(num){
+//     if(num < 2){
+//         return false;
+//     }
+//   for(let i = 2; i<num; i++){
+//         if(num % i === 0){
+//             return false;
+//         }
+//   }
+//     return true;
+// }
+// console.log(isPrime(30));
 
 // let root =Math.ceil(Math.sqrt(num));
 // console.log(root);
